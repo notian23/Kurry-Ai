@@ -40,7 +40,7 @@ def Move_Custom_Right(Thumb, Index, Majeure, Ring, Pinky):
   print("Hand: Moving right majeure to position [" + Majeure + "]")
   print("Hand: Moving right ring to position [" + pinky + "]")
 
-class Hands():
+class Hand():
 
   Thumb_Port = 2
   Index_Port = 3
@@ -56,31 +56,31 @@ class Hands():
   version = "0.0.1"
 
 
-  options = [
-      "Attach Hands",
-      "Connect Hands",
-      "Detach Hands",
-      "Disconnect Hands",
-      "Open Both Hands",
-      "Open your hands",
-      "Close Both Hands",
-      "Close you hands",
-      "Close your left hand",
-      "Close your right hand",
+  options = {
+      1 : "Attach Hands",
+      2 : "Connect Hands",
+      3 : "Detach Hands",
+      4 : "Disconnect Hands",
+      5 : "Open Both Hands",
+      6 : "Open your hands",
+      7 : "Close Both Hands",
+      8 : "Close you hands",
+      9 : "Close your left hand",
+      10 : "Close your right hand",
       #####################################
-      "Close your Left Thumb finger"
-      "Close your Left Index finger",
-      "Close your Left Majeure Finger",
-      "Close your Left Ring Finger",
-      "Close your Left Pinky Finger"
-      "Open your Left Thumb finger"
-      "Open your Left Index finger",
-      "Open your Left Majeure Finger",
-      "Open your Left Ring Finger",
-      "Open your Left Pinky Finger",
+      11 : "Close your Left Thumb finger",
+      12 : "Close your Left Index finger",
+      13 : "Close your Left Majeure Finger",
+      14 : "Close your Left Ring Finger",
+      15 : "Close your Left Pinky Finger",
+      16 : "Open your Left Thumb finger",
+      17 : "Open your Left Index finger",
+      18 : "Open your Left Majeure Finger",
+      19 : "Open your Left Ring Finger",
+      20 : "Open your Left Pinky Finger",
       #####################################
-      "Status"
-    ]
+      21 : "Status"
+    }
   
   def Connect_Hand():
     print("Hand: Connecting")

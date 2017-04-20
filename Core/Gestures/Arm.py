@@ -1,5 +1,18 @@
 import time
 
+def Move_Custom_Left(Bicep, Rotate, Shoulder, Omoplate):
+  print("Arm: Left Moving Bicep to" + Bicep)
+  print("Arm: Left Moving Rotate to" + Rotate)
+  print("Arm: Left Moving Shoulder to" + Shoulder)
+  print("Arm: Left Moving Omoplate to" + Omoplate)
+
+def Move_Custom_Right(Bicep, Rotate, Shoulder, Omoplate):
+  print("Arm: Right Moving Bicep to" + Bicep)
+  print("Arm: Right Moving Rotate to" + Rotate)
+  print("Arm: Right Moving Shoulder to" + Shoulder)
+  print("Arm: Right Moving Omoplate to" + Omoplate)
+
+
 class Arm():
 
   Bicep_Port = 8
@@ -11,20 +24,25 @@ class Arm():
   email = "Brownbear1002@gmail.com"
   version = "0.0.1"
 
-  options = [
-      "Connect Arm",
-      "Attach Arm",
-      "Disconnect Arm",
-      "Detach Arm",
-      "Rest",
+  options = {
+      1 : "Connect Arm",
+      2 : "Attach Arm",
+      3 : "Disconnect Arm",
+      4 : "Detach Arm",
+      5 : "Rest",
       ####################################
-      "Bicep 90",
-      "Rotate 90",
-      "Shoulder 90",
-      "Omoplate 90",
+      6 : "Bicep 90",
+      7 : "Rotate 90",
+      8 : "Shoulder 90",
+      9 : "Omoplate 90",
       ####################################
-      "Status"
-    ]
+      10 : "Bicep Custom",
+      11 : "Rotate Custom",
+      12 : "Shoulder Custom",
+      13 : "Omoplate Custom",
+      ####################################
+      14 : "Status"
+    }
     
   def Connect_Arm():
     print("Arm: Connecting")
@@ -32,57 +50,32 @@ class Arm():
     print("Arm: Connected")
     
     print("Arm: Resting Bicep")
-    Rest_Bicep()
+    # Rest Part
     time.sleep(2)
     print("Arm: Resting Rotate")
-    Rest_Rotate()
+    # Rest Part
     time.sleep(2)
     print("Arm: Resting Shoulder")
-    Rest_Shoulder()
+    # Rest Part
     time.sleep(2)
     print("Arm: Resting Omoplate")
-    Rest_Omoplate()
+    # Rest Part
     time.sleep(2)
 
   def Rest_All():
     print("Arm: Resting Bicep")
-    Rest_Bicep()
+    # Rest Part
     time.sleep(2)
     print("Arm: Resting Rotate")
-    Rest_Rotate()
+    # Rest Part
     time.sleep(2)
     print("Arm: Resting Shoulder")
-    Rest_Shoulder()
+    # Rest Part
     time.sleep(2)
     print("Arm: Resting Omoplate")
-    Rest_Omoplate()
+    # Rest Part
     time.sleep(2)
     
   def Status():
-    print("Amr: Bicep Port [" + Bicep_Port + "] Rotate Port [" + Rotate_Port + "] Shoulder Port [" + Shoulder_Port + "] Omoplate [" + Omoplat_Port + "]" )
+    print("Arm: Bicep Port [" + Bicep_Port + "] Rotate Port [" + Rotate_Port + "] Shoulder Port [" + Shoulder_Port + "] Omoplate [" + Omoplat_Port + "]" )
     
-###################################
-
-def Rest_Bicep():
-  
-def Rest_Rotate():
-  
-def Rest_Shoulder():
-  
-def Rest_Omoplate():
-  
-###################################
-
-def Bicep_90():
-  
-def Rotate_90():
-  
-def Shoulder_90():
-  
-def Omoplate_90():
-
-###################################
-
-def Move_Custom_Left(Bicep, Rotate, Shoulder, Omoplate):
-
-def Move_Custom_Right(Bicep, Rotate, Shoulder, Omoplate):
