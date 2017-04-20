@@ -1,0 +1,49 @@
+import webbrowser
+
+Version = '0.0.1'
+Author = 'Josh Brown'
+Email = 'Brownbear1002@gmail.com'
+
+#################################################
+
+#Save Url that we are opening
+url = "http://localhost:8888/kurry.ear"
+#Opens Tabs for us
+tab = 2
+webbrowser.open(url, tab=tab)
+
+###############################################
+
+#Initalizing Check up procedures
+GesturesFolder = "Gestures"
+ScriptsFolder = "Scripts"
+
+###############################################
+
+#Initalizing Gestures
+Gestures = [
+  #############################
+  "Close Thumb Finger"
+  "Close Index Finger"
+  "Close Maejure Finger"
+  "Close Ring Finger"
+  "Close Pinky Finger"
+  #############################
+  ]
+
+#Initalizing Scripts
+ScriptActions = [
+  "Initalization" , "Init"
+  ]
+
+MaxScriptActions = len(ScriptActions)
+
+###############################################
+
+def Init():
+  execfile(ScriptsFolder+'Init.py')
+
+###############################################
+
+#Completetion of initalization
+Init()
