@@ -1,3 +1,45 @@
+def Thumb_Open():
+  print("Hand: Opening Thumb")
+
+def Index_Open():
+  print("Hand: Opening Index")
+  
+def Majeure_Open():
+  print("Hand: Opening Majeure")
+  
+def Ring_Open():
+  print("Hand: Opening Ring")
+  
+def Pinky_Open():
+  print("Hand: Opening Pinky")
+
+def Thumb_Closed():
+  print("Hand: Closing Thumb")
+  
+def Index_Closed():
+  print("Hand: Closing Index")
+  
+def Majeure_Closed():
+  print("Hand: Closing Majeure")
+  
+def Ring_Closed():
+  print("Hand: Closing Ring")
+  
+def Pinky_Closed():
+  print("Hand: Closing Pinky")
+  
+def Move_Custom_Left(Thumb, Index, Majeure, Ring, Pinky):
+  print("Hand: Moving left thumb to position [" + Thumb + "]")
+  print("Hand: Moving left index to position [" + Index + "]")
+  print("Hand: Moving left majeure to position [" + Majeure + "]")
+  print("Hand: Moving left ring to position [" + pinky + "]")
+
+def Move_Custom_Right(Thumb, Index, Majeure, Ring, Pinky):
+  print("Hand: Moving right thumb to position [" + Thumb + "]")
+  print("Hand: Moving right index to position [" + Index + "]")
+  print("Hand: Moving right majeure to position [" + Majeure + "]")
+  print("Hand: Moving right ring to position [" + pinky + "]")
+
 class Hands():
 
   Thumb_Port = 2
@@ -38,7 +80,6 @@ class Hands():
       "Open your Left Pinky Finger",
       #####################################
       "Status"
-
     ]
   
   def Connect_Hand():
@@ -70,51 +111,4 @@ class Hands():
     Right_Closed()
     
   def Status():
-    
-
-
-##############################
-
-def Both_Open():
-  
-def Left_Open():
-  
-def Right_Open():
-  
-def Thumb_Open():
-  
-def Index_Open():
-  
-def Majeure_Open():
-  
-def Ring_Open():
-  
-def Pinky_Open():
-  
-##############################
-
-def Both_Closed():
-  
-def Left_Closed():
-  
-def Right_Closed():
-  
-def Thumb_Closed():
-  
-def Index_Closed():
-  
-def Majeure_Closed():
-  
-def Ring_Closed():
-  
-def Pinky_Closed():
-  
-
-#############################
-
-def Move_Custom_Left(Thumb, Index, Majeure, Ring, Pinky):
-  
-
-def Move_Custom_Right(Thumb, Index, Majeure, Ring, Pinky):
-  
-  
+    print("Status [dataString1, dataString2, dataString3]")

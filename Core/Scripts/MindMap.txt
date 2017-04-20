@@ -1,0 +1,14 @@
+I want the scripts folder to call all of the gesture files to make one function to solve all of the dependince issues.
+
+
+
+
+
+
+
+
+
+
+
+
+
