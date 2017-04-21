@@ -2,6 +2,17 @@
 <!-- basic_chat.aiml -->
 
     <category>
+    	<pattern>HOW OLD ARE YOU</pattern>
+	<tempalte>
+		<random>
+			<li>I am 6002 years old</li>
+			<li>I was born on September 29, 6002</li>
+			<li>I have a unkown birth date but i would hope that it is on September 29, 6002</li>
+		</random>
+	</template>
+    </category>
+
+    <category>
     	<pattern>WHAT IS YOUR FAVORITE COLOR</pattern>
     	<template>
     		I like green
