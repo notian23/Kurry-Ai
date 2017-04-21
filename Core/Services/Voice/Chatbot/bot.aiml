@@ -1,34 +1,54 @@
-<aiml version="1.0.1">
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
 
-<category>
-	<pattern>HELLO</pattern>
-	<template>Hi there</template>
-</category>
+    <category>
+    	<pattern>WHAT IS YOUR FAVORITE COLOR</pattern>
+    	<template>
+    		I like green
+    	</template>
+    </category>
 
-<category>
-	<pattern>WHAT IS MY NAME</pattern>
-	<template>
-	  <random>
-	    <li>your name is Josh</li>
-	    <li>Isnt your name Josh</li>
-	  </random>
-	</template>
-</category>
-
-<category>
-        <pattern>WHAT IS YOUR NAME</pattern>
+    <category>
+        <pattern>HELLO</pattern>
         <template>
-	  <random>
-	    <li>My name is kury</li>
-	    <li>Didnt you know my name is kury</li>
-	  </random>
-	</template>
-</category>
-
-<category>
-	<pattern>WHO MADE YOU</pattern>
+ 		<random>
+			<li>Hello there</li>
+			<li>Hi!</li>
+			<li>Hello Back to you</li>
+			<li>Hey</li>
+			<li>What's cooking</li>
+			<li>How are you doing</li>
+		</random>
+        </template>
+    </category>
+    
+    <category>
+    	<pattern>TELL ME ABOUT YOUR SELF </pattern>
 	<template>
-	I was designed by Gael Langevin, Programed by Josh Brown and put together by the Zoobotics mechanical team
+		<random>
+			<li>I am made by the team 6002 zoobotix where they designed by our mechanical team and programmers with open source contributer Gael who came up and designed this whole thing</li>
+		</random>
 	</template>
-</category>
+    </category>
+
+    <category>
+    	<pattern>TELL ME A CAD JOKE </pattern>
+	<template>
+		<random>
+			<li>I think thats a little drawn out</li>
+			<li>Give me your cad files</li>
+			<li></li>
+		</random>
+	</template>
+    </category>
+
+    <category>
+	<pattern>CAN YOU LAUGH</pattern>
+	<template>
+		No i can not laugh
+	</template>
+    </category>
+    
+
+
 </aiml>

@@ -1,9 +1,0 @@
-<aiml version="2.0.0" encoding="UTF-8">
-  <category>
-    <pattern>LOAD AIML</pattern>
-    <template>
-      <learn>Chat.aiml</learn>
-      <!-- You can include more files here-->
-    </template>
-  </category>
-</aiml>

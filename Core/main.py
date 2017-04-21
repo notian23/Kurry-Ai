@@ -16,7 +16,7 @@ class main():
     print("Main: Starting Voice")
       
     print("Main: Starting Web Gui")
-    os.system("cd Services/Server && python -m SimpleHTTPServer 8000")
+    #os.system("cd Services/Server && python -m SimpleHTTPServer 8000")
     print("Main: Starting AIML")
     kury.learn("Services/Voice/Chatbot/bot.aiml")
 
