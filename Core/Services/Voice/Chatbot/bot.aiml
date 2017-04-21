@@ -11,6 +11,17 @@
 		</random>
 	</template>
     </category>
+    
+    <category>
+    	<pattern>CAN YOU SEE ME</pattern>
+	<template>
+		<random>
+			<li>No but i know your there</li>
+			<li>I might be able to see you</li>
+			<li>Are you alive or are you in my head</li>
+		</random>
+	</tempalte>
+    </category>
 
     <category>
     	<pattern>WHAT IS YOUR FAVORITE COLOR</pattern>
