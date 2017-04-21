@@ -3,30 +3,14 @@
 import aiml
 import os
 
-# Debugging Purposes
-from Gesture import *
- 
-
-
-# Scripts
-# from Scripts import scriptExample
-
-# Gestures Class's
-# TODO: Remove this later
-hand = Hand()
-arm = Arm()
-head = Head()
-
 # Aiml
-kurry = aiml.Kernel()
+kury = aiml.Kernel()
 sessionId = 00001
 
-# Speeding up load times
-if os.path.isfile("Services/Voice/Chatbot/bot_brain.brn"):
-  kurry.bootstrap(brainFile = "Services/Voice/Chatbot/bot_brain.brn")
-else:
-  kurry.bootstrap(learnFiles = "Services/Voice/Chatbot/Startup.aiml", commands = "load aiml")
-  kurry.saveBrain("Services/Voice/Chatbot/bot_brain.brn")
+# Loading Files
+kury.learn("Services/Voice/Chatbot/bot.aiml")
+
+running = True
 
 class main():
   Version = '0.0.1'
@@ -44,12 +28,6 @@ class main():
     print("Main: Starting AIML")
     
 
-while True:
-  message =  kurry.respond(raw_input("Kurry >> "))
-
-  if message == "quit" or "Quit":
-    exit()
-
-  elif message == "save" or "Save":
-      kurry.saveBrain("Services/Voice/ChatBot/bot_brain.brn")
-      bot_response = kernel.respond(message)
+while running == True:
+  message =  kury.respond(raw_input("User >> "))
+  print("Chatbot >> " + kury.respond(message))    

@@ -1,0 +1,12 @@
+<aiml version="1.0.1">
+
+<category>
+	<pattern>HELLO</pattern>
+	<template>Hi there</template>
+</category>
+
+<category>
+        <pattern>WHAT IS YOUR NAME</pattern>
+        <template>My name is kury</template>
+</category>
+</aiml>

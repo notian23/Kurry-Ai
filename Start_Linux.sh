@@ -6,3 +6,6 @@ echo Killing current Java threads
 # This command should kill any and all java commands... that run in a jar, hopefully
 pkill -f 'java -jar'
 echo
+echo Starting Program
+echo 
+cd Core && python main.py
