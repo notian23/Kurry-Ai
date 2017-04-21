@@ -30,4 +30,4 @@ class main():
 
 while running == True:
   message =  kury.respond(raw_input("User >> "))
-  print("Chatbot >> " + kury.respond(message))    
+  print("Chatbot >> " + kury.respond(message))
