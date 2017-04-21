@@ -19,3 +19,8 @@
   ## V2.0
   
     - Comming Soon
+
+# Contributers
+
+  - Ian
+  - Josh
