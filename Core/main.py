@@ -4,18 +4,18 @@ import aiml
 import os
 
 # Debugging Purposes
-from Gestures import Hand
-from Gestures import Arm
-from Gestures import Head
+from Gesture import *
+ 
+
 
 # Scripts
 # from Scripts import scriptExample
 
-#Gestures Class's
-#TODO: Currently this broken
-# hand = Hand()
-# arm = Arm()
-# head = Head()
+# Gestures Class's
+# TODO: Remove this later
+hand = Hand()
+arm = Arm()
+head = Head()
 
 # Aiml
 kurry = aiml.Kernel()
@@ -34,33 +34,22 @@ class main():
   Email = 'Brownbear1002@gmail.com'
   
   def init():
-    Hand_Max = hand.options.max()
-    Arm_Max = arm.options.max()
-    Head_Max = head.options.max()
+    #Initalize voice
+    print("Main: Stating Services")
+
+    print("Main: Starting Voice")
+
+    print("Main: Starting Web Gui")
+
+    print("Main: Starting AIML")
     
-    Hand_Current = 0
-    Arm_Current = 0
-    Head_Current = 0
-    
-    #Save info to varialbe
-    User_Data = input("Your Input: ")
-    
-    if(User_Data == hand.options(0)):
-      print("Hello World")
-    
-    else (Hand_Current > Hand_Max):
-      Hand_Current++
-    
-    else (Hand_Current = Hand_Max):
-      Hand_Current = 0
-      
-#Must be last thing to run
+
 while True:
   message =  kurry.respond(raw_input("Kurry >> "))
-  
-  if message == "quit" or "Save":
+
+  if message == "quit" or "Quit":
     exit()
-  else if message == "save" or "Save":
-    kernel.saveBrain("Services/Voice/Chatbot/bot_brain.brn")
-  else:
-    bot_response = kurry.respond(message)
+
+  elif message == "save" or "Save":
+      kurry.saveBrain("Services/Voice/ChatBot/bot_brain.brn")
+      bot_response = kernel.respond(message)
