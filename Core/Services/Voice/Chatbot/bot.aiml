@@ -71,6 +71,11 @@
 	</template>
     </category>
     
-
-
+    <category>
+    	<pattern>WHO ARE YOU</pattern>
+	<template>
+		I am Kurry, an artificial intelligence robot built by team6002
+	</template>
+    <category>	
+	
 </aiml>
