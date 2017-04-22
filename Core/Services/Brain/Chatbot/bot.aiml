@@ -14,7 +14,7 @@
 
     <category>
     	<pattern>HOW OLD ARE YOU</pattern>
-	<tempalte>
+	<template>
 		<random>
 			<li>I am 6002 years old</li>
 			<li>I was born on September 29, 6002</li>
