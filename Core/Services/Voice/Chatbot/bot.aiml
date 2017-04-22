@@ -2,6 +2,28 @@
 <!-- basic_chat.aiml -->
 
     <category>
+	<pattern>WHAT IS YOUR GENDER</pattern>
+	<template>
+		<random>
+			<li>I am a male</li>
+			<li>Did you assume my gender</li>
+			<li>Self destructing in 5, 4, 3, 2, 1</li>
+		</random>
+	</template>
+    </categoy>
+
+    <category>
+	<pattern>TELL ME A POEM</pattern>
+	<template>
+		<random>
+			<li>I could just devour you like Saturn, but essence not flesh</li>
+			<li>I was like milk and you brought in your bitter.</li>
+			<li>Biting my lips to keep from screaming blood is like metal</li>
+		</random>
+	</template>
+    </category>
+
+    <category>
     	<pattern>HOW OLD ARE YOU</pattern>
 	<tempalte>
 		<random>
