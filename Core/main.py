@@ -23,8 +23,7 @@ class main():
     print("Main: Connecting to arduino")
     try:
         Left_Arduino = serial.Serial("COM3", 9600)
-        #Right_Arduino = serial.Serial("COM4", 9600)
-        break
+        Right_Arduino = serial.Serial("COM4", 9600)
     except:
         print("Could not connect to arduino")
 
