@@ -115,7 +115,7 @@
 	<template>
 		I am Kurry, an artificial intelligence robot built by team 6002
 	</template>
-    <category>
+    </category>
     
     <category>
     	<pattern>MY NAME IS *</pattern>
