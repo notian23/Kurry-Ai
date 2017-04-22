@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 import aiml
 import os
+import sys
 import serial
+import time
 
 # Aiml
 kury = aiml.Kernel()
@@ -21,12 +23,21 @@ class main():
     print("Main: Starting AIML")
     #kury.learn("Services/Brain/Chatbot/bot.aiml")
     print("Main: Connecting to arduino")
+    usbport = "COM3"
+    
     try:
-        Left_Arduino = serial.Serial("COM3", 9600)
-        #Right_Arduino = serial.Serial("COM4", 9600)
-        break
+        right_arduino = serial.Serial(usbport, 9600)
+
     except:
-        print("Could not connect to arduino")
+        print("Could not connect to arduino on port " + usbport)
+    
+    usbport = "COM4"
+
+    try:
+        right_arduino = serial.Serial(usbport, 9600)
+
+    except:
+        print("Could not connect to arduino on port " + usbport)
 
 core = main()
 
