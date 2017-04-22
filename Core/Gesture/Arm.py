@@ -1,4 +1,5 @@
 import time
+import Adafruit_BBIO as PMW
 
 def Move_Custom_Left(Bicep, Rotate, Shoulder, Omoplate):
   print("Arm: Left Moving Bicep to" + Bicep)
@@ -12,13 +13,24 @@ def Move_Custom_Right(Bicep, Rotate, Shoulder, Omoplate):
   print("Arm: Right Moving Shoulder to" + Shoulder)
   print("Arm: Right Moving Omoplate to" + Omoplate)
 
-
 class Arm():
 
   Bicep_Port = 8
   Rotate_Port = 9
   Shoulder_Port = 10
   Omoplate_Port = 11
+
+  Bicep_Min = 0
+  Bicep_Max = 90
+
+  Rotate_Min = 90
+  Rotate_Max = 40
+
+  Shoulder_Min = 30
+  #Shoulder_Max = 
+
+  Omoplate_Min = 10
+  Omoplate_Max = 80
 
   author = "Josh Brown"
   email = "Brownbear1002@gmail.com"
@@ -47,6 +59,7 @@ class Arm():
   def Connect_Arm():
     print("Arm: Connecting")
     #TODO: Connect Arm ;)
+    
     print("Arm: Connected")
     
     print("Arm: Resting Bicep")
