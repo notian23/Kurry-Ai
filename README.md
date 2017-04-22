@@ -8,15 +8,15 @@
   
 # DEPENDENCY
  
-  - Python 3
+  - [Python 3](https://www.python.org/)
   
-  - Aiml
+  - [Aiml](http://www.alicebot.org/aiml.html)
   
-  - Adafruit_BBIO
+  - [Adafruit_BBIO](https://learn.adafruit.com/setting-up-io-python-library-on-beaglebone-black/using-the-bbio-library)
   
   - [Pip](https://bootstrap.pypa.io/get-pip.py)
 
-  - pySerial  
+  - [pySerial](https://pythonhosted.org/pyserial/)  
 
 # ROADMAP
 
