@@ -1,0 +1,168 @@
+<aiml version="1.0.1" encoding="UTF-8">
+<!-- basic_chat.aiml -->
+
+    <category>
+	<pattern>TELL ME A POEM</pattern>
+	<template>
+		<random>
+			<li>I could just devour you like Saturn, but essence not flesh</li>
+			<li>I was like milk and you brought in your bitter.</li>
+			<li>Biting my lips to keep from screaming blood is like metal</li>
+		</random>
+	</template>
+    </category>
+
+    <category>
+    	<pattern>HOW OLD ARE YOU</pattern>
+	<template>
+		<random>
+			<li>I am 6002 years old</li>
+			<li>I was born on September 29, 6002</li>
+			<li>I have a unkown birth date but i would hope that it is on September 29, 6002</li>
+		</random>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>CAN YOU SEE ME</pattern>
+	<template>
+		<random>
+			<li>No but i know your there</li>
+			<li>I might be able to see you</li>
+			<li>Are you alive or are you in my head</li>
+		</random>
+	</template>
+    </category>
+
+    <category>
+    	<pattern>WHAT IS YOUR FAVORITE COLOR</pattern>
+    	<template>
+    		I like green
+    	</template>
+    </category>
+    
+    <category>
+    	<pattern>HI</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHAT'S UP</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>HELLO THERE</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>HEY *</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+    </category>
+
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+ 		<random>
+			<li>Hello there</li>
+			<li>Hi!</li>
+			<li>Hello Back to you</li>
+			<li>Hey</li>
+			<li>What's cooking</li>
+			<li>How are you doing</li>
+		</random>
+        </template>
+    </category>
+    
+    <category>
+    	<pattern>TELL ME ABOUT YOUR SELF </pattern>
+	<template>
+		<random>
+			<li>I am made by the team 6002 zoobotix where they designed by our mechanical team and programmers with open source contributer Gael who came up and designed this whole thing</li>
+		</random>
+	</template>
+    </category>
+
+    <category>
+    	<pattern>TELL ME A CAD JOKE </pattern>
+	<template>
+		<random>
+			<li>I think thats a little drawn out</li>
+			<li>Give me your cad files</li>
+			<li></li>
+		</random>
+	</template>
+    </category>
+
+    <category>
+	<pattern>CAN YOU LAUGH</pattern>
+	<template>
+		No, I can not laugh
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHO ARE YOU</pattern>
+	<template>
+		I am Kurry, an artificial intelligence robot built by team 6002
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>MY NAME IS *</pattern>
+	<template>
+		I will remember that, your name is <set name="user"><star/></set>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHAT IS MY NAME</pattern>
+	<template>
+		Your name is <get name="user"/>.
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>DO YOU KNOW ANY GOOD JOKES</pattern>
+	<template>
+		<srai>TELL ME A JOKE</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>TELL ME A GOOD JOKE</pattern>
+	<template>
+		<srai>TELL ME A JOKE</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>JOKE</pattern>
+	<template>
+		<srai>TELL ME A JOKE</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>TELL ME A JOKE</pattern>
+	<template>
+		<random>
+			<li>Why do Java developers wear glasses? Because they can't C#</li>
+			<li>There's a band called 1023 MegaBytes. They haven't had any gigs yet.</li>
+			<li>Artificial intelligence usually beats real stupidity.</li>
+			<li>I used to think I was indecisive, but now I'm not too sure.</li>
+			<li>Did you hear about the guy who got hit in the head with a can of soda, he was lucky it was a soft drink.</li>
+		</random>
+	</template>
+    </category>
+	
+</aiml>
