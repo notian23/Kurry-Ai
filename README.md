@@ -16,17 +16,17 @@
 
   ## V1.0
     
-    - [x] Link aiml to python
+   - [x] Link aiml to python
     
-    - Program python to use arduino
+   - [ ] Program python to use arduino
     
-    - Create all Gesture files
+   - [X] Create all Gesture files
     
-    - Create One or Two scripts
+   - [ ] Create One or Two scripts
     
-    - Use aiml and python in conjunction to produce a script or a action
+   - [ ] Use aiml and python in conjunction to produce a script or a action
     
-    - Sucsessfully upload to a arduino
+   - [ ] Sucsessfully upload to a arduino
   
 
   ## V2.0
