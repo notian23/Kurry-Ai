@@ -14,7 +14,7 @@
   
   - Adafruit_BBIO
   
-  - Pip
+  - [Pip](https://bootstrap.pypa.io/get-pip.py)
 
   - pySerial  
 
