@@ -1,103 +1,111 @@
 <aiml version="1.0.1" encoding="UTF-8">
 <!-- basic_chat.aiml -->
 
-    <category>
-	<pattern>WHAT IS YOUR GENDER</pattern>
-	<template>
-		<random>
-			<li>I am a male</li>
-			<li>Did you assume my gender</li>
-			<li>Self destructing in 5, 4, 3, 2, 1</li>
-		</random>
-	</template>
+  <category>
+	  <pattern>WHAT IS YOUR GENDER</pattern>
+	  <template>
+		  <random>
+			  <li>I am a male</li>
+			  <li>Did you assume my gender</li>
+			  <li>Self destructing in 5, 4, 3, 2, 1</li>
+		  </random>
+	  </template>
     </categoy>
 
-    <category>
-	<pattern>TELL ME A POEM</pattern>
-	<template>
-		<random>
-			<li>I could just devour you like Saturn, but essence not flesh</li>
-			<li>I was like milk and you brought in your bitter.</li>
-			<li>Biting my lips to keep from screaming blood is like metal</li>
-		</random>
-	</template>
-    </category>
+  <category>
+	  <pattern>TELL ME A POEM</pattern>
+	  <template>
+		  <random>
+			  <li>I could just devour you like Saturn, but essence not flesh</li>
+			  <li>I was like milk and you brought in your bitter.</li>
+			  <li>Biting my lips to keep from screaming blood is like metal</li>
+		  </random>
+	  </template>
+  </category>
 
-    <category>
-    	<pattern>HOW OLD ARE YOU</pattern>
-	<tempalte>
-		<random>
-			<li>I am 6002 years old</li>
-			<li>I was born on September 29, 6002</li>
-			<li>I have a unkown birth date but i would hope that it is on September 29, 6002</li>
-		</random>
-	</template>
-    </category>
+  <category>
+   	<pattern>HOW OLD ARE YOU</pattern>
+	  <tempalte>
+		  <random>
+			  <li>I am 6002 years old</li>
+			  <li>I was born on September 29, 6002</li>
+			  <li>I have a unkown birth date but i would hope that it is on September 29, 6002</li>
+		  </random>
+	  </template>
+   </category>
     
-    <category>
-    	<pattern>CAN YOU SEE ME</pattern>
-	<template>
-		<random>
-			<li>No but i know your there</li>
-			<li>I might be able to see you</li>
-			<li>Are you alive or are you in my head</li>
-		</random>
-	</tempalte>
-    </category>
+   <category>
+     <pattern>CAN YOU SEE ME</pattern>
+	   <template>
+		    <random>
+			    <li>No but i know your there</li>
+			    <li>I might be able to see you</li>
+			    <li>Are you alive or are you in my head</li>
+		    </random>
+	   </tempalte>
+   </category>
 
-    <category>
-    	<pattern>WHAT IS YOUR FAVORITE COLOR</pattern>
-    	<template>
-    		I like green
-    	</template>
-    </category>
+   <category>
+    <pattern>WHAT IS YOUR FAVORITE COLOR</pattern>
+    <template>
+      I like green
+    </template>
+   </category>
 
-    <category>
-        <pattern>HELLO</pattern>
-        <template>
- 		<random>
-			<li>Hello there</li>
-			<li>Hi!</li>
-			<li>Hello Back to you</li>
-			<li>Hey</li>
-			<li>What's cooking</li>
-			<li>How are you doing</li>
-		</random>
-        </template>
-    </category>
+   <category>
+    <pattern>HELLO</pattern>
+    <template>
+ 		  <random>
+			  <li>Hello there</li>
+			  <li>Hi!</li>
+			  <li>Hello Back to you</li>
+			  <li>Hey</li>
+			  <li>Self destruct in 5, 4, 3, 2, 1, Just kidding</li>
+			  <li>What's cooking</li>
+			  <li>How are you doing</li>
+		  </random>
+    </template>
+   </category>
     
-    <category>
-    	<pattern>TELL ME ABOUT YOUR SELF </pattern>
-	<template>
-		<random>
-			<li>I am made by the team 6002 zoobotix where they designed by our mechanical team and programmers with open source contributer Gael who came up and designed this whole thing</li>
-		</random>
-	</template>
-    </category>
+   <category>
+    <pattern>TELL ME ABOUT YOUR SELF </pattern>
+	  <template>
+		  <random>
+			  <li>I am made by the team 6002 zoobotix where they designed by our mechanical team and programmers with open source contributer Gael who came up and designed this whole thing</li>
+		  </random>
+	  </template>
+   </category>
 
-    <category>
-    	<pattern>TELL ME A CAD JOKE </pattern>
-	<template>
-		<random>
-			<li>I think thats a little drawn out</li>
-			<li>Give me your cad files</li>
-			<li></li>
-		</random>
-	</template>
-    </category>
+  <category>
+    <pattern>TELL ME A CAD JOKE </pattern>
+	  <template>
+		  <random>
+			  <li>I think thats a little drawn out</li>
+			  <li>Give me your cad files</li>
+			  <li></li>
+		  </random>
+	  </template>
+   </category>
 
-    <category>
-	<pattern>CAN YOU LAUGH</pattern>
-	<template>
-		No i can not laugh
-	</template>
-    </category>
-    
-    <category>
-    	<pattern>WHO ARE YOU</pattern>
-	<template>
-		I am Kurry, an artificial intelligence robot built by team6002
-	</template>
-    <category>	
-	
+  <category>
+	  <pattern>CAN YOU LAUGH</pattern>
+	  <template>
+		  No i can not laugh
+	  </template>
+  </category>
+  
+  <category>
+    <patern>TELL ME A JOKE</pattern>
+	  <template>
+		  <random>
+		    <li>What kind of shoes do ninjas wear? sneakers</li>
+		    <li>What computer sings the best? A dell</li>
+		    <li>I know how to count in binary, It's easy as 01 10 11</li>
+		    <li>Artificial intelligence is no match for natural stupidity</li>
+		    <li>Maybe if we start saying the brain is an app people might actually start using</li>
+		    <li>My internet is so slow I might as well go to Google headquarters and ask them myself</li>
+		    <li>What do you call the security guards at a samsung store? Guardians of the Galaxy</li>
+		  </random>
+	  </template>
+  </category>
 </aiml>
