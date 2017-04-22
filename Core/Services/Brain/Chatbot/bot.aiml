@@ -40,6 +40,34 @@
     		I like green
     	</template>
     </category>
+    
+    <category>
+    	<pattern>HI</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHAT'S UP</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>HELLO THERE</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>HEY *</pattern>
+	<template>
+		<srai>HELLO</srai>
+	</template>
+    </category>
 
     <category>
         <pattern>HELLO</pattern>
@@ -78,15 +106,63 @@
     <category>
 	<pattern>CAN YOU LAUGH</pattern>
 	<template>
-		No i can not laugh
+		No, I can not laugh
 	</template>
     </category>
     
     <category>
     	<pattern>WHO ARE YOU</pattern>
 	<template>
-		I am Kurry, an artificial intelligence robot built by team6002
+		I am Kurry, an artificial intelligence robot built by team 6002
 	</template>
     <category>
+    
+    <category>
+    	<pattern>MY NAME IS *</pattern>
+	<template>
+		I will remember that, your name is <set name="user"><star/></set>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHAT IS MY NAME</pattern>
+	<template>
+		Your name is <get name="user"/>.
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>DO YOU KNOW ANY GOOD JOKES</pattern>
+	<template>
+		<srai>TELL ME A JOKE</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>TELL ME A GOOD JOKE</pattern>
+	<template>
+		<srai>TELL ME A JOKE</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>JOKE</pattern>
+	<temlpate>
+		<srai>TELL ME A JOKE</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>TELL ME A JOKE</pattern>
+	<template>
+		<random>
+			<li>Why do Java developers wear glasses? Because they can't C#</li>
+			<li>There's a band called 1023 MegaBytes. They haven't had any gigs yet.</li>
+			<li>Artificial intelligence usually beats real stupidity.</li>
+			<li>I used to think I was indecisive, but now I'm not too sure.</li>
+			<li>Did you hear about the guy who got hit in the head with a can of soda, he was lucky it was a soft drink.</li>
+		</random>
+	</template>
+    </category>
 	
 </aiml>
