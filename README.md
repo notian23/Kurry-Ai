@@ -1,3 +1,16 @@
+# RESOURCES
+ 
+  - http://www.alicebot.org/documentation/
+ 
+  - http://www.alicebot.org/documentation/dont.html
+  
+  - http://www.devdungeon.com/tags/aiml
+  
+# DEPENDECY
+
+  - https://github.com/pyserial/pyserial
+  
+
 # ROADMAP
 
 
@@ -24,3 +37,4 @@
 
   - Ian
   - Josh
+  - The One and Only Daniel Nguyen
