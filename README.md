@@ -1,5 +1,7 @@
 # RESOURCES
-  
+ 
+  - http://www.alicebot.org/documentation/
+ 
   - http://www.alicebot.org/documentation/dont.html
   
   - http://www.devdungeon.com/tags/aiml
