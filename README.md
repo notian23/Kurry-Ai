@@ -7,9 +7,16 @@
   - http://www.devdungeon.com/tags/aiml
   
 # DEPENDENCY
-
-  - https://github.com/pyserial/pyserial
+ 
+  - Python 3
   
+  - Aiml
+  
+  - Adafruit_BBIO
+  
+  - Pip
+
+  - pySerial  
 
 # ROADMAP
 
