@@ -6,7 +6,7 @@
   
   - http://www.devdungeon.com/tags/aiml
   
-# DEPENDECY
+# DEPENDENCY
 
   - https://github.com/pyserial/pyserial
   
