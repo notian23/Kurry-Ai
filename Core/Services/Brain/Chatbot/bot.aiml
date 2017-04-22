@@ -147,7 +147,7 @@
     
     <category>
     	<pattern>JOKE</pattern>
-	<temlpate>
+	<template>
 		<srai>TELL ME A JOKE</srai>
 	</template>
     </category>
