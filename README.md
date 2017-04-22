@@ -16,7 +16,7 @@
 
   ## V1.0
     
-    - Link aiml to python
+    - [x] Link aiml to python
     
     - Program python to use arduino
     
