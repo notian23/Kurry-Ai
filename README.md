@@ -6,6 +6,9 @@
   
   - http://www.devdungeon.com/tags/aiml
   
+# DEPENDECY
+
+  - https://github.com/pyserial/pyserial
   
 
 # ROADMAP
