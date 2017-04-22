@@ -1,17 +1,6 @@
 <aiml version="1.0.1" encoding="UTF-8">
 <!-- basic_chat.aiml -->
 
-  <category>
-	  <pattern>WHAT IS YOUR GENDER</pattern>
-	  <template>
-		  <random>
-			  <li>I am a male</li>
-			  <li>Did you assume my gender</li>
-			  <li>Self destructing in 5, 4, 3, 2, 1</li>
-		  </random>
-	  </template>
-  </categoy>
-
     <category>
 	<pattern>TELL ME A POEM</pattern>
 	<template>

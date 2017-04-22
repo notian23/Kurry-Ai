@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import aiml
 import os
+import serial
 
 # Aiml
 kury = aiml.Kernel()
@@ -18,7 +19,14 @@ class main():
     print("Main: Starting Web Gui")
     #os.system("cd Services/Server && python -m SimpleHTTPServer 8000")
     print("Main: Starting AIML")
-    kury.learn("Services/Brain/Chatbot/bot.aiml")
+    #kury.learn("Services/Brain/Chatbot/bot.aiml")
+    print("Main: Connecting to arduino")
+    try:
+        Left_Arduino = serial.Serial("COM3", 9600)
+        #Right_Arduino = serial.Serial("COM4", 9600)
+        break
+    except:
+        print("Could not connect to arduino")
 
 core = main()
 
