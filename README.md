@@ -18,6 +18,41 @@
 
   - [pySerial](https://pythonhosted.org/pyserial/)  
 
+# COMMANDS
+  - How were you made
+  
+  - Who made you
+  
+  - What is frc
+  
+  - Where are you from
+  
+  - How do you feel
+  
+  - What is your favoirte movie
+  
+  - what is your favorite book
+  
+  - whos the greatest
+  
+  - what is pi
+  
+  - what program do you use
+  
+  - are you a boy or a girl
+  
+  - what is 2 squared
+  
+  - who are the memebers on 6002
+  
+  - countries are in usa
+  
+  - how many teams are in michigan
+  
+  - what is your favorite frc team
+  
+  - what does frc stand for
+
 # ROADMAP
 
 
