@@ -20,13 +20,13 @@
     
    - [ ] Program python to use arduino
     
-   - [X] Create all Gesture files
+   - [x] Create all Gesture files
     
    - [ ] Create One or Two scripts
     
    - [ ] Use aiml and python in conjunction to produce a script or a action
     
-   - [ ] Sucsessfully upload to a arduino
+   - [x] Sucsessfully upload to a arduino
   
 
   ## V2.0
