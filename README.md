@@ -1,6 +1,8 @@
 # RESOURCES
  
   - http://www.alicebot.org/documentation/
+  
+  - https://github.com/keiffster/program-y/wiki
  
   - http://www.alicebot.org/documentation/dont.html
   
