@@ -212,5 +212,12 @@
 		I am from Kalamazoo, Michigan
 	</template>
     </category>
+    
+    <category>
+    	<pattern>WHAT IS YOUR FAVORITE MOVIE</pattern>
+	<template>
+		I think Terminator is a great film
+	</template>
+    </category>
 	
 </aiml>
