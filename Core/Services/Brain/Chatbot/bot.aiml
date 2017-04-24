@@ -164,5 +164,53 @@
 		</random>
 	</template>
     </category>
+    
+    <category>
+    	<pattern>HOW WERE YOU MADE</pattern>
+	<template>
+		I was made with 3D printed components, servos, 2 arduinos, and more
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHOS YOUR DADDY</pattern>
+	<template>
+		<srai>WHO MADE YOU</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHO CREATED YOU</pattern>
+	<template>
+		<srai>WHO MADE YOU</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHOS YOUR CREATOR</pattern>
+	<template>
+		<srai>WHO MADE YOU</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHO MADE YOU</pattern>
+	<template>
+		I was made by team 6002 as a mascot
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHAT IS FRC</pattern>
+	<template>
+		FRC stands for FIRST Robotics Competition, high school teams all over the world compete with robots made in a six week build season to win the yearly game
+	</template>
+    </category>
+    <category>
+    	<pattern>WHERE ARE YOU FROM</pattern>
+	<template>
+		I am from Kalamazoo, Michigan
+	</template>
+    </category>
 	
 </aiml>
