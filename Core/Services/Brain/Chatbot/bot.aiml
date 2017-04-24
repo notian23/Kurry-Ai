@@ -201,6 +201,13 @@
     </category>
     
     <category>
+    	<pattern>WHAT DOES FRC STAND FOR</pattern>
+	<template>
+		<srai>WHAT IS FRC</srai>
+	</template>
+    </category>
+    
+    <category>
     	<pattern>WHAT IS FRC</pattern>
 	<template>
 		FRC stands for FIRST Robotics Competition, high school teams all over the world compete with robots made in a six week build season to win the yearly game
@@ -217,6 +224,135 @@
     	<pattern>WHAT IS YOUR FAVORITE MOVIE</pattern>
 	<template>
 		I think Terminator is a great film
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHAT IS PI</pattern>
+	<template>
+		I belive it is 3.14159265358979323846263383297502884197169399 and so on
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHAT PROGRAM DO YOU USE</pattern>
+	<template>
+		I use an assortment of AIML, Python, and Arduino code
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>ARE YOU A MAN OR A WOMAN</pattern>
+	<template>
+		<srai>MALE OR FEMALE</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>ARE YOU A BOY OR A GIRL</pattern>
+	<template>
+		<srai>MALE OR FEMALE</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHAT IS YOUR GENDER</pattern>
+	<template>
+		<srai>MALE OR FEMALE<srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>MALE OR FEMALE</pattern>
+	<template>
+		<random>
+			<li>Did you just assume my gender?</li>
+			<li>I am a robot, I have no gender</li>
+			<li>I do not have a gender file, blame the programmers</li>
+		</random>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHAT IS THE SQUARE ROOT OF TWO</pattern>
+	<template>
+		<random>
+			<li>cosecant of pi over four</li>
+			<li>secant of pi over four</li>
+			<li>cosecant of three pi over four</li>
+			<li>secant of seven pi over four</li>
+			<li>1.4142135624</li>
+		</random>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHO IS ON THE TEAM 6002</pattern>
+	<template>
+		<srai>MEMBERS OF 6002</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHO ARE THE MEMBERS OF TEAM 6002</pattern>
+	<template>
+		<srai>MEMBERS OF 6002</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHO IS ON ZOOBOTIX</pattern>
+	<template>
+		<srai>MEMBERS OF 6002</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHO IS ON ZOOBOTICS</pattern>
+	<template>
+		<srai>MEMBERS OF 6002/srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHO ARE THE MEMBERS OF ZOOBOTICS</pattern>
+	<template>
+		<srai>MEMBERS OF 6002</srai>
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHO ARE THE MEMBERS OF ZOOBOTIX</pattern>
+	<template>
+		<srai>MEMBERS OF 6002</srai>
+	</template>
+    </category>
+
+    <category>
+    	<pattern>MEMBERS OF 6002</pattern>
+	<template>
+		Currently the members of Zoobotix are Daniel, Josh, Justin, Zach, John, Kevin M, Kevin T, Ian, Matthew, Stephen, Tanner, Trevor, and Erik
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>HOW MANY COUNTRIES SUPPORT FRC</pattern>
+	<template>
+		There are currently 24 countries that support FRC teams
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>hOW MANY FRC TEAMS ARE IN MICHIGAN</pattern>
+	<template>
+		As of 2017 there are 451 teams in Michigan
+	</template>
+    </category>
+    
+    <category>
+    	<pattern>WHO IS YOUR FAVORITE FRC TEAM</pattern>
+	<template>
+		My favorite team is 6002 Zoobotix
 	</template>
     </category>
 	
